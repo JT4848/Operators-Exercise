@@ -17,9 +17,9 @@
             int a = 17;
             int b = 4;
             int q = a / b;
+            var remainder = a % b;
+            Console.WriteLine($"{a} / {b} is {q} remainder of {remainder}");
             
-            
-            Console.WriteLine(x);
 
             x = 50;
             y = 80;
